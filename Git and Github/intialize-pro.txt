@@ -1,0 +1,227 @@
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % npm i react-icons
+
+added 1 package, and audited 346 packages in 17s
+
+131 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/vishalyadav/Desktop/My Collection/Tailwind Projects/Tailwind-project-2/.git/
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git add .
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git commit -m "Set
+ting Enviroment for tailwind project and creatinf adjustable button or al
+l component and download the react-icon packages for icons"
+[master (root-commit) 21d88fd] Setting Enviroment for tailwind project and creatinf adjustable button or all component and download the react-icon packages for icons
+ 16 files changed, 5931 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 postcss.config.js
+ create mode 100644 public/vite.svg
+ create mode 100644 src/App.jsx
+ create mode 100644 src/Components/Button/Button.jsx
+ create mode 100644 src/Components/NonColorButton/NonColorButton.jsx
+ create mode 100644 src/assets/react.svg
+ create mode 100644 src/index.css
+ create mode 100644 src/main.jsx
+ create mode 100644 tailwind.config.js
+ create mode 100644 vite.config.js
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git remote add ori
+gin "https://github.com/vishalyadav0987/Razorpay-Tailwind.git"
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git branch
+* master
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git branch -m main
+
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push --set-upstream origin main
+To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Razorpay-Tailwind.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git pull origin ma
+in
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 894 bytes | 178.00 KiB/s, done.
+From https://github.com/vishalyadav0987/Razorpay-Tailwind
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git pull origin main
+
+From https://github.com/vishalyadav0987/Razorpay-Tailwind
+ * branch            main       -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push --set-upstream origin main
+
+To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Razorpay-Tailwind.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git config pull.rebase true
+
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git pull origin main
+
+From https://github.com/vishalyadav0987/Razorpay-Tailwind
+ * branch            main       -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+error: could not apply 21d88fd... Setting Enviroment for tailwind project and creatinf adjustable button or all component and download the react-icon packages for icons
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Could not apply 21d88fd... Setting Enviroment for tailwind project and creatinf adjustable button or all component and download the react-icon packages for icons
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push --set-upstream origin main
+
+To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Razorpay-Tailwind.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push --help
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git commit -m "Setting Enviroment for tailwind project and creatinf adjustable button or all component and download the react-icon packages for icons"
+U       README.md
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git add .
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git commit -m "Setting Enviroment for tailwind project and creatinf adjustable button or all component and download the react-icon packages for icons"
+[detached HEAD cefe33b] Setting Enviroment for tailwind project and creatinf adjustable button or all component and download the react-icon packages for icons
+ 16 files changed, 5934 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 postcss.config.js
+ create mode 100644 public/vite.svg
+ create mode 100644 src/App.jsx
+ create mode 100644 src/Components/Button/Button.jsx
+ create mode 100644 src/Components/NonColorButton/NonColorButton.jsx
+ create mode 100644 src/assets/react.svg
+ create mode 100644 src/index.css
+ create mode 100644 src/main.jsx
+ create mode 100644 tailwind.config.js
+ create mode 100644 vite.config.js
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push origin ma
+in
+To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Razorpay-Tailwind.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git remote add origin "https://github.com/vishalyadav0987/Razorpay-Tailwind.git"
+error: remote origin already exists.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git pull origin main --rebase
+
+
+From https://github.com/vishalyadav0987/Razorpay-Tailwind
+ * branch            main       -> FETCH_HEAD
+fatal: It seems that there is already a rebase-merge directory, and
+I wonder if you are in the middle of another rebase.  If that is the
+case, please try
+        git rebase (--continue | --abort | --skip)
+If that is not the case, please
+        rm -fr ".git/rebase-merge"
+and run me again.  I am stopping in case you still have something
+valuable there.
+
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % 
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push origin main
+
+To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Razorpay-Tailwind.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git add .        
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git rebase --continue
+
+Successfully rebased and updated refs/heads/main.
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % git push origin main
+
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (24/24), 49.50 KiB | 7.07 MiB/s, done.
+Total 24 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
+   f4c8d3f..cefe33b  main -> main
+vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % 

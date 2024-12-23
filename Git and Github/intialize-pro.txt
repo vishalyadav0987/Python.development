@@ -234,3 +234,4 @@ New GIT COMMMMAND
 2. create new brnach [git branch bug-fix]
 3. Maine kuch changes kiye file1 jub me main brnach me tha but maine ushe commit nh kiya tha maine ushi time new brnach bug-fix me switch kar gaya aur waha jakar file1 ko commit kar diya aur jab me wapas main branch me aya toh woh line main branch nh thi kyuki main ushe likha main brnach lekin commit kiya bug-fix branch me
 3 . Enter new branch [git switch bug-fix]
+4 . git switch -c dark-mode : This command creates a new branch called dark-mode. the -c flag is used to create a new branch.

@@ -245,3 +245,9 @@ New GIT COMMMMAND
 # Merging: After fast forward merging both branch have same file that is file4.txt both done some work on it and now both branch have different version of file4.txt in case when user wants to merge it not merging showing reslove confile error it [which code is good you want manually choose kis line ko rakhna or kisko remove kkarna hai]  after resove confilct it only resolve the change in main file.txt not changes in bug-fix file4.txt 
 git add . 
 git commit -m 
+
+# Change branch name
+git branch -m <old-branch-name> <new-branch-name>
+
+# delete branch
+git branch -d <branch-name>

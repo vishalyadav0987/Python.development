@@ -4,3 +4,5 @@ it is new branch file this file only show in bug-fix branch
 it is new branch file this file only show in bug-fix branch
 
 It is new line that will add in main brnach after some merging
+it is comming 2025
+2024 is gitignore

@@ -2,3 +2,6 @@ This is my fourth fiie and second line of code.
 it is new branch file this file only show in bug-fix branch
 it is new branch file this file only show in bug-fix branch
 it is new branch file this file only show in bug-fix branch
+
+
+it is new line that will add in bug-fix brnach after fast forward merge

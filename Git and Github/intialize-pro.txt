@@ -238,6 +238,10 @@ New GIT COMMMMAND
 5. git checkout orange-mode : This command switches to the orange-mode branch.
 
 
-# merging
+# merging : fast forward merging: when only one user have file4.txt and working after finished the work it will be pushed then merge to the main branch.
 1. git checkout main
 2. git merge bug-fix : This fast forward merge
+
+# Merging: After fast forward merging both branch have same file that is file4.txt both done some work on it and now both branch have different version of file4.txt in case when user wants to merge it not merging showing reslove confile error it [which code is good you want manually choose kis line ko rakhna or kisko remove kkarna hai]
+git add . 
+git commit -m 

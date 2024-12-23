@@ -225,3 +225,12 @@ Total 24 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/vishalyadav0987/Razorpay-Tailwind.git
    f4c8d3f..cefe33b  main -> main
 vishalyadav@Vishals-MacBook-Air-3 Tailwind-project-2 % 
+
+
+
+New GIT COMMMMAND
+
+1. git status
+2. create new brnach [git branch bug-fix]
+3. Maine kuch changes kiye file1 jub me main brnach me tha but maine ushe commit nh kiya tha maine ushi time new brnach bug-fix me switch kar gaya aur waha jakar file1 ko commit kar diya aur jab me wapas main branch me aya toh woh line main branch nh thi kyuki main ushe likha main brnach lekin commit kiya bug-fix branch me
+3 . Enter new branch [git switch bug-fix]

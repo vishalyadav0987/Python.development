@@ -251,3 +251,6 @@ git branch -m <old-branch-name> <new-branch-name>
 
 # delete branch
 git branch -d <branch-name>
+
+# push --upstream origin main :
+when we contribute in another branch

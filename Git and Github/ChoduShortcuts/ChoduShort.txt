@@ -1,0 +1,6 @@
+Chod no 1 : Changing file type
+desc --  we can chage the type of a file just by Changing it renaming it extension.
+
+--------------------------------
+
+Chod no 2 : 

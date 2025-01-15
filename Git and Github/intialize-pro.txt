@@ -254,3 +254,95 @@ git branch -d <branch-name>
 
 # push --upstream origin main :
 when we contribute in another branch
+
+
+
+# NEW ISSUE WHEN I Initialized NEW Project
+
+vishalyadav@Vishals-MacBook-Air-3 Backend % cd ..
+vishalyadav@Vishals-MacBook-Air-3 UBER % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/vishalyadav/Desktop/My Collection/Node Js/Projects/UBER/.git/
+vishalyadav@Vishals-MacBook-Air-3 UBER % git add .
+vishalyadav@Vishals-MacBook-Air-3 UBER % git commit -m "Initialize the ba
+ckend setup the backend connect with database using mongoose"
+[master (root-commit) 5dbb2f3] Initialize the backend setup the backend connect with database using mongoose
+ 6 files changed, 1520 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Backend/app.js
+ create mode 100644 Backend/connectDB/connect.js
+ create mode 100644 Backend/index.js
+ create mode 100644 Backend/package-lock.json
+ create mode 100644 Backend/package.json
+vishalyadav@Vishals-MacBook-Air-3 UBER % git remote add origin https://github.com/vishalyadav0987/Uber-Clone.git
+vishalyadav@Vishals-MacBook-Air-3 UBER % git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Uber-Clone.git'
+vishalyadav@Vishals-MacBook-Air-3 UBER % git branch
+* master
+vishalyadav@Vishals-MacBook-Air-3 UBER % git branch -m master main
+vishalyadav@Vishals-MacBook-Air-3 UBER % git branch
+* main
+vishalyadav@Vishals-MacBook-Air-3 UBER % git push origin main
+To https://github.com/vishalyadav0987/Uber-Clone.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Uber-Clone.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 UBER % git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 869 bytes | 173.00 KiB/s, done.
+From https://github.com/vishalyadav0987/Uber-Clone
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+vishalyadav@Vishals-MacBook-Air-3 UBER % git push origin main
+To https://github.com/vishalyadav0987/Uber-Clone.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/vishalyadav0987/Uber-Clone.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+vishalyadav@Vishals-MacBook-Air-3 UBER % git status
+On branch main
+nothing to commit, working tree clean
+vishalyadav@Vishals-MacBook-Air-3 UBER % git branch
+* main
+vishalyadav@Vishals-MacBook-Air-3 UBER % git push origin main --force
+
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 14.66 KiB | 14.66 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vishalyadav0987/Uber-Clone.git
+ + 73ab702...5dbb2f3 main -> main (forced update)
+vishalyadav@Vishals-MacBook-Air-3 UBER % 
